@@ -1,0 +1,159 @@
+#container{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.image{
+    width: 100%;
+    height: 60vh;
+    background-image:linear-gradient(to bottom, rgba(207, 183, 183, 0.5),rgba(0,0,0,0.7)), url("../Images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    cursor:default;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    width:80px;
+    height: 80px;
+}
+.text1{
+    display:block;
+    position: relative;
+    text-align: center;
+    top: 52%;
+    border: none;
+    outline: none;
+    font-size: xx-large;
+    color: white;
+}
+.search,.input{
+    
+    display: inline;
+    outline: none;
+}
+
+select{
+    position: absolute;
+    left:34% ;
+    top: 64%;
+    width:13%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    color:rgb(71, 64, 134,0.7);
+    
+    
+}
+#optioncolor{
+    font-weight: 600;
+   line-height: 2.5;
+}
+
+.search-bar-dropdown{
+    display: block;
+    position: absolute;
+    left: 47%;
+    top:62%;
+    margin-left: 10px;
+    width: 21%;
+    padding: 7px;
+    border: none;
+    outline: none;
+   
+   
+}
+#danger{
+    z-index: 100;
+    border: none;
+    outline: none;
+    padding: 7px 35px;
+    font-weight: 600;
+    color:rgb(69, 62, 131);
+    background-position: left;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+   
+}
+
+#location{
+    background-image: url("../Images/search.png");
+    background-position: 5px 5px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}
+
+    
+
+#quicksearch{
+    color: dodgerblue;
+    font-size: large;
+}
+
+
+#quicksearch,#text2{
+    padding-left: 25px;
+}
+.float img{
+    float: left;
+    margin-right: 10px;
+    height: 120px;
+    width: 120px;
+}
+.float {
+    
+    overflow: auto;
+    width: 80%;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+@media screen and (max-width: 1036px){
+    select{
+        display: block;
+        left:34% ;
+        top: 64%;
+        width:13%;
+        padding: 7px;
+        border: none;
+        outline: none;
+        
+        
+    }
+    
+    .search-bar-dropdown{
+        display: block;
+        left: 47%;
+        top:62%;
+        margin-left: 10px;
+        width: 21%;
+        padding: 7px;
+        border: none;
+        outline: none;
+        z-index: 1;
+       
+    }
+}
+@media screen and (max-width: 572px){
+    select{
+        top:75%;
+        display: block;
+    }
+    .search-bar-dropdown{
+        top:73%;
+        display: block;
+    }
+}
+
+

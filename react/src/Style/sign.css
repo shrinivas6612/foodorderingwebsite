@@ -1,0 +1,110 @@
+#image{
+    box-sizing: border-box;
+    position: absolute;
+    background-image:linear-gradient(to bottom, rgba(207, 183, 183, 0.3),rgba(0,0,0,0.5)),url("../Images/login2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.shr{
+    position: absolute;
+    box-sizing: border-box;
+    width: 50%;
+    height: 600px;
+    background-color: rgb(248, 242, 242);
+    
+    
+}
+.shrin{
+    position: absolute;
+    box-sizing: border-box;
+    left:380px;
+    width: 50%;
+    height: 600px;
+    background-color: rgba(248, 242, 242, 0.5);
+    padding: 0 40px;
+    
+}
+
+
+
+.login{
+    width: 100%;
+    color: dodgerblue;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 300;
+    font-size: xx-large;
+
+}
+#user,#pass,#submi,#fName,#lName{
+    box-sizing: border-box;
+    color: black;
+    width: 100%;
+    font-size: 110%;
+    padding: 10px;
+    padding-left: 0;
+    margin-bottom: 25px;
+    
+    
+}
+label{
+    color: gray;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 15px;
+    opacity: 0.7;
+   
+    margin-bottom: 0;
+    padding-left: 2px;
+}
+#user,#lName,#fName{
+    border: none;
+    outline: none;
+    border-bottom: 1px dodgerblue solid;
+    font-size: 95%;
+    background: transparent;
+
+}
+#pass{
+    border: none;
+    outline: none;
+    border-bottom: 1px dodgerblue solid;
+    font-size: 95%;
+    background: transparent;
+    margin-bottom: 10px;
+
+}
+#submi{
+    background-color: dodgerblue;
+    opacity: 0.8;
+    width: 40%;
+    outline: none;
+    border: none;
+    opacity: 1.5;
+    padding: 0;
+    color: white;
+    line-height: 38px;
+    box-sizing: border-box;
+}
+
+.reset{
+    float: right;
+}
+.submit1{
+   padding-top: 10px;
+   
+   
+}
+
+
+
+
+.footer{
+    color: black;
+    float: left;
+    font-size:15px;
+    margin-left: 31px;
+
+    
+}

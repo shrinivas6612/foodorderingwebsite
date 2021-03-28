@@ -1,0 +1,96 @@
+
+
+#division2{
+    color: rgb(32, 59, 117);
+}
+#subdivision1,#subdivision2{
+   
+    
+    font-size: small;
+}
+#subdivision1{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+#sidepage{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:0 30px ;
+    padding-top: 8px;
+    
+}
+
+.filters-head{
+    color: red;
+    font-family: cursive;
+    font-weight: 800;
+}
+#loca{
+    position: relative;
+    left:0px;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid red;
+    margin-left: 0;
+    line-height: 1.5;
+}
+
+input{
+   margin-right: 5px;
+}
+
+
+
+#main-panel{
+   
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.side-panel img{
+    float: left;
+    margin-right: 15px;
+    
+}
+
+.sub-panel{
+    width: 80%;
+    padding: 10px;
+    padding-bottom: 30px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer{
+    
+    margin-bottom: 20px;
+}
+.foot{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.foot a{
+    color: red;
+    text-decoration: none;
+     padding: 5px 12px;
+    border-radius: 5px;
+}
+.foot a:hover{
+    background-color: red;
+    color: white;
+    
+}
+.foot a:active{
+    background-color: red;
+    
+}
+.nodata{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+}

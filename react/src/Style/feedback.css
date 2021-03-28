@@ -1,0 +1,21 @@
+#feedback{
+ 
+   padding: 35px ;
+   padding-top: 15px;
+  
+}
+#head{
+    padding: 7px 0;
+    color:dodgerblue;
+    opacity: 0.7;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.form-group{
+    width: 100%;
+}
+#Detailslabel,#Phonelabel,#addresslabel{
+    color: rgb(71, 65, 121);
+    font-weight: 600;
+}
